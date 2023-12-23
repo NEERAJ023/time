@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiple Timer App</title>
+    <link rel="icon" type="image/x-icon" href="./img/alarm-clock.jpg" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <h1>Multiple Timers App</h1>
+    <div id="container">
+      <p id="para">Set Time:</p>
+      <div id="bar">
+
+        <input type="number" id="hours" min="0" max="24" placeholder="hh" />
+        <span>:</span>
+        <input type="number" id="minutes" min="0" max="60" placeholder="mm" />
+        <span>:</span>
+        <input type="number" id="seconds" min="0" max="60" placeholder="ss" />
+      
+    </div>
+      <button id="startTimer">Set</button>
+    </div>
+    <!-- footer -->
+    <div id="footer">
+      <div id="heading">Current Timers</div>
+      <div id="activeTimers"></div>
+    </div>
+   
+    <!-- script file -->
+    <script src="./script.js"></script>
+  </body>
+</html>

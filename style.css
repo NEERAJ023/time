@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+  }
+  body {
+    background-color: #1d1d23;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    text-align: center;
+    color: white;
+    padding: 30px;
+  }
+  #para {
+    width: 142px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  #container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #34344a;
+    color: aliceblue;
+    width: 849px;
+    height: 112px;
+    border-radius: 20px;
+    padding: 5px;
+  }
+  
+  #bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  input[type="number"] {
+    background-color: transparent;
+    color: white;
+    font-size: 26px;
+    width: 60px;
+    height: 54px;
+    border: transparent;
+    text-decoration-line: underline;
+    padding: 0px 10px;
+  }
+  
+  input[type="number"]:focus {
+    outline: none;
+  }
+  
+  input[type="number"]::placeholder {
+    color: white;
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  span {
+    font-size: 35px;
+  }
+  input {
+    gap: 70px;
+  }
+  #startTimer {
+    background-color: #f0f757;
+    width: 124px;
+    height: 52px;
+    border-radius: 26px;
+    font-size: 20px;
+  }
+  
+  #startTimer:hover {
+    background: rgb(37, 147, 7);
+    color: #f8f1f5 !important;
+  }
+  
+  #heading {
+    width: 413px;
+    height: 66px;
+    border-radius: 50px;
+    background: #39393e;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 40px;
+  }
+  
+  #footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #activeTimers {
+    color: white;
+    padding-top: 20px;
+  }
+  
+  .timer-container {
+    width: 849px;
+    height: 132px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    background: #34344a;
+  }
+  
+  .timer {
+    font-size: 35px;
+  }
+  
+  .timer-ended {
+    color: #34344a;
+    font-weight: 800;
+  }
+  
+  .time-left {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .timer-controls {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .control-button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-weight: 800;
+  }
+  
+  .stop-button {
+    background-color: #f0f757;
+    color: #34344a;
+    width: 124px;
+    height: 52px;
+    border-radius: 26px;
+    font-size: 20px;
+  }
+  
+  .stop-button:hover {
+    background-color: rgb(205, 1, 1);
+  }
+  
+  .delete-button {
+    background-color: #39393e;
+    color: #f0f757;
+    width: 124px;
+    height: 52px;
+    border-radius: 26px;
+    font-size: 20px;
+  }
+  
+  .delete-button:hover {
+    background-color: rgb(205, 1, 1);
+  }
